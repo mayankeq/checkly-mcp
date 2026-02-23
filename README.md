@@ -26,6 +26,8 @@ Edit `.mcp.json` and fill in your credentials:
 {
   "mcpServers": {
     "checkly": {
+      "command": "node",
+      "args": ["/absolute/path/to/checkly-mcp/dist/index.js"],
       "env": {
         "CHECKLY_API_KEY": "cu_...",
         "CHECKLY_ACCOUNT_ID": "your-account-uuid",
