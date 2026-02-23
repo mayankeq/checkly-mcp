@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "checkly": {
+      "command": "node",
+      "args": ["/absolute/path/to/checkly-mcp/dist/index.js"],
+      "env": {
+        "CHECKLY_API_KEY": "cu_your_api_key_here",
+        "CHECKLY_ACCOUNT_ID": "your-account-uuid-here",
+        "CHECKLY_READ_ONLY": "true"
+      }
+    }
+  }
+}
